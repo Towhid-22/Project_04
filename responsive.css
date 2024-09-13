@@ -1,0 +1,156 @@
+/* !======================== 320px to 575px ======================== */
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  nav {
+    background: #eeedde;
+    padding-top: 0px !important;
+  }
+  #banner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #banner .text_area button {
+    margin-top: 10px;
+  }
+  #banner .text_area input {
+    width: auto;
+  }
+  .image_area img {
+    width: 100%;
+  }
+  #banner .text_area h2 {
+    font-size: 25px;
+  }
+  #banner .text_area p {
+    width: auto;
+  }
+  #banner .bannerInputBox {
+    margin-top: 0px;
+  }
+  #properti {
+    padding: 25px 0;
+  }
+  #properti h2 {
+    font-size: 26px;
+    width: auto;
+    margin-bottom: 16px;
+  }
+  .properti_item p {
+    margin-bottom: 18px;
+    width: auto;
+  }
+  .properti_item {
+    height: auto;
+  }
+  #residen {
+    padding-top: 25px;
+  }
+  #residen .title h2 {
+    font-size: 26px;
+  }
+  .residen_image img {
+    width: 80%;
+  }
+  .residen_image img:last-child {
+    left: 62px;
+  }
+  .residen_textarea {
+    margin-top: 90px;
+  }
+  .residen_textarea h2 {
+    font-size: 26px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .residen_textarea a:last-child {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #residen {
+    padding-bottom: 30px;
+  }
+  .kota_title h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  #kota {
+    padding: 30px 0;
+  }
+  .kota_items p {
+    width: auto;
+  }
+  .kota_items img {
+    width: 100%;
+  }
+  .footer_top_title h2 {
+    font-size: 25px;
+    margin-bottom: 17px;
+  }
+  #footer_top {
+    padding: 15px 0;
+  }
+  .footer_top_left {
+    flex-direction: column;
+  }
+  .contact {
+    margin-top: 20px;
+  }
+  .footer_top_right h3 {
+    font-size: 25px;
+    margin-bottom: 26px;
+    margin-top: 20px;
+  }
+  .footer_top_right {
+    margin-left: -50%;
+  }
+}
+
+/* !======================== 576px to 768px ======================== */
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  #banner .text_area button {
+    margin-top: 10px;
+  }
+  .image_area img {
+    width: auto;
+  }
+  #properti {
+    padding: 30px 0;
+  }
+  #residen .title h2 {
+    font-size: 32px;
+  }
+  .residen_textarea {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .residen_textarea {
+    margin-top: 100px;
+  }
+  .footer_top_right {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .footer_top_title h2 {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .residen_textarea {
+    margin-top: 100px;
+  }
+  .kota_items p {
+    width: auto;
+  }
+  #banner .text_area button {
+    margin-top: 10px;
+  }
+}
